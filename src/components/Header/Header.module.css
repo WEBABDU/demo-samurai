@@ -1,0 +1,48 @@
+.header {
+  grid-area: h;
+  background-color: rgb(0, 0, 0);
+}
+
+.header img {
+  width: 60px;
+}
+
+.login {
+  float: right;
+  margin: 10px;
+}
+
+.login a {
+  font-family: "Roboto";
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(107, 100, 100, 0.473);
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.loginBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginName {
+  font-family: "Nero";
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 15px;
+  margin-right: 5px;
+  
+}
+
+.logoutBtn {
+  font-family: "Roboto";
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  background-color: rgba(163, 147, 147, 0.473);
+  border-radius: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.formControl.error textarea,
+.formControl.error input {
+  border: 2px solid red;
+}
+
+.formControl.error span {
+  color: red;
+}
+
+.formSummaryError {
+  border: 1px red solid;
+  padding: 5px;
+  color: red;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.authInput {
+  font-family: "Roboto";
+  height: 25px;
+  width: 240px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.authInput:focus {
+  border: 1px rgb(26, 133, 26) solid;
+}
+
+.formButton {
+  width: 240px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 5px 20px; 
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(
+    to right,
+    #fcfcfc 0%,
+    #36353a 51%,
+    #000000 100%
+  );
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}

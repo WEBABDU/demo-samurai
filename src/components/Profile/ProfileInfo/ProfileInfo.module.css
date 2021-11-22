@@ -1,0 +1,14 @@
+.descriptionBlock {
+  padding: 10px;
+}
+
+.pfofileName {
+  font-family: "Times New Roman", Times, serif;
+  color: #00f3ff;
+  padding-top: 5px;
+}
+
+.profileStatus {
+  color: gold;
+  padding-top: 5px;
+}
